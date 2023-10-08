@@ -92,6 +92,15 @@ header {
   border-radius: 10px;
 }
 
+.languages .text h1 {
+  width: 200px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .main .card .textArea h1 {
   color: var(--neutrals-n-800, #172b4d);
   font-size: 27px;
@@ -99,6 +108,14 @@ header {
   font-weight: 700;
   line-height: 44px;
   margin: 0;
+}
+
+.aboutMe .top p {
+  color: var(--neutrals-n-600, #344563);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .main .card .textArea p {
@@ -127,6 +144,26 @@ header {
   line-height: 16px;
 }
 
+.aboutMe .top img {
+  padding: 16px 0;
+}
+
+.languages .text img {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: start;
+}
+
+.languages .drop .lang img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 1px solid var(--neutrals-n-0, #fff);
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
 .main .card .textArea .frame img {
   width: 8px;
   height: 8px;
@@ -137,6 +174,16 @@ header {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.aboutMe .top button {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+  color: var(--primary-b-500, #396df2);
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.51px;
 }
 
 .main .card .textArea .buttons button {
@@ -165,45 +212,6 @@ header {
   background: #fff;
 }
 
-.languages .text h1 {
-  width: 200px;
-  color: #000;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.aboutMe .top img {
-  padding: 16px 0;
-}
-
-.languages .text img {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  justify-content: start;
-}
-
-.languages .drop .lang img {
-  width: 48px;
-  height: 48px;
-  flex-shrink: 0;
-  border-radius: 60px;
-  border: 1px solid var(--neutrals-n-0, #fff);
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.aboutMe .top button {
-  padding: 12px;
-  border-radius: 10px;
-  border: 1px solid var(--primary-b-400, #6070ff);
-  color: var(--primary-b-500, #396df2);
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.51px;
-}
-
 .aboutMe {
   display: inline-flex;
   padding: 114px 24px;
@@ -227,14 +235,6 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-}
-
-.aboutMe .top p {
-  color: var(--neutrals-n-600, #344563);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 .aboutMe .top span {
