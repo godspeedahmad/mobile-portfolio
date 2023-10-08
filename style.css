@@ -118,6 +118,17 @@ header {
   line-height: 24px;
 }
 
+.contact .parentContainer p {
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  margin-bottom: 50px;
+}
+
 .main .card .textArea p {
   color: var(--neutrals-n-600, #344563);
   font-size: 15px;
@@ -174,6 +185,24 @@ header {
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.end-button button {
+  display: inline-flex;
+  padding: 14px 22px;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid var(--base-100, #909496);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  margin-left: -16px;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.51px;
 }
 
 .aboutMe .top button {
@@ -284,7 +313,6 @@ header {
 }
 
 .contact {
-  background-color: #fff;
   width: 325px;
   flex-shrink: 0;
   background-color: var(--primary-b-400, #6070ff);
@@ -299,7 +327,6 @@ header {
   padding: 29px;
   background-repeat: no-repeat;
   width: 265px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -313,19 +340,8 @@ header {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   margin-top: 5rem;
-}
-
-.contact .parentContainer p {
-  color: var(--primary-b-50, #ebebff);
-  text-align: center;
-  font-family: Poppins, Arial;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
-  margin-bottom: 50px;
 }
 
 .contact .parentContainer .input {
@@ -344,8 +360,8 @@ header {
 
 .contact .parentContainer .input .t1 {
   padding: 10px 16px;
-  color: var(--neutrals-n-60, #b3bAc5);
-  font-family: Arial;
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -353,8 +369,8 @@ header {
 }
 
 .contact .parentContainer .input .t1::placeholder {
-  color: var(--neutrals-n-60, #b3bAc5);
-  font-family: Arial;
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -369,8 +385,8 @@ header {
 }
 
 .contact .parentContainer .input .text-input::placeholder {
-  color: var(--neutrals-n-60, #b3bAc5);
-  font-family: Arial;
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -381,26 +397,8 @@ header {
 
 .end-button {
   display: inline-flex;
-  padding: 24px 0 ;
+  padding: 24px 0;
   align-items: center;
   justify-content: start;
   width: 100%;
-}
-
-.end-button button {
-  display: inline-flex;
-  padding: 14px 22px;
-  align-items: center;
-  justify-content: start;
-  border: 1px solid var(--base-100, #909496);
-  border-radius: 8px;
-  background-color: white;
-  color: var(--primary-b-400, #6070ff);
-  text-align: center;
-  margin-left: -16px;
-  font-family: Poppins, Arial;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px; 
-  letter-spacing: 0.51px;
 }
