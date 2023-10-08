@@ -118,6 +118,17 @@ header {
   line-height: 24px;
 }
 
+.contact .parentContainer p {
+  color: var(--primary-b-50, #ebebff);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  margin-bottom: 50px;
+}
+
 .main .card .textArea p {
   color: var(--neutrals-n-600, #344563);
   font-size: 15px;
@@ -176,6 +187,24 @@ header {
   flex-wrap: wrap;
 }
 
+.end-button button {
+  display: inline-flex;
+  padding: 14px 22px;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid var(--base-100, #909496);
+  border-radius: 8px;
+  background-color: white;
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  margin-left: -16px;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
 .aboutMe .top button {
   padding: 12px;
   border-radius: 10px;
@@ -214,7 +243,7 @@ header {
 
 .aboutMe {
   display: inline-flex;
-  padding: 114px 24px;
+  padding: 74px 24px;
   flex-direction: column;
   align-items: center;
   gap: 24px;
@@ -281,4 +310,95 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
+}
+
+.contact {
+  width: 325px;
+  flex-shrink: 0;
+  background-color: var(--primary-b-400, #6070ff);
+  border-radius: 80px 0 0 0;
+}
+
+.contact .parentContainer {
+  flex-shrink: 0;
+  border-radius: 70px 0 0 0;
+  background: url(images/contact.bg.png) right center no-repeat;
+  background-size: 70% auto;
+  padding: 29px;
+  background-repeat: no-repeat;
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .parentContainer h2 {
+  color: #fff;
+  margin: 0;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: Arial, sans-serif;
+  margin-top: 5rem;
+}
+
+.contact .parentContainer .input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .parentContainer input {
+  height: 48px;
+  flex-shrink: 0;
+  width: 265px;
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+}
+
+.contact .parentContainer .input .t1 {
+  padding: 10px 16px;
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.contact .parentContainer .input .t1::placeholder {
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+
+.contact .parentContainer .input .text-input {
+  border-radius: 8px;
+  border: 1px solid var(--base-100, #cfd8dc);
+  padding: 15px 16px 38px;
+  height: 130px;
+}
+
+.contact .parentContainer .input .text-input::placeholder {
+  color: var(--neutrals-n-60, #b3bac5);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.end-button {
+  display: inline-flex;
+  padding: 24px 0;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
 }
